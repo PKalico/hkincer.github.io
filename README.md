@@ -1,2 +1,3 @@
 # hkincer.github.io
-# These are sample file for an HTML/CSS web design class.
+
+These are sample files for an HTML/CSS web design class.
