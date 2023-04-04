@@ -27,7 +27,7 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 
 // Set email recipient
-$to = "hnkincer@waketech.edu";
+//$to = "hnkincer@waketech.edu";
 
 // Set email subject
 $subject = "New message from your website";
@@ -41,12 +41,13 @@ $body = "Name: " . $name . "\n"
 $headers = "From: " . $name . " <" . $email . ">\r\n";
 $headers .= "Reply-To: " . $email . "\r\n";
 
+echo "<p>Thank you for contacting me. I will get back to you soon.</p>";
 // Send email
-if (mail($to, $subject, $body, $headers)) {
+/*if (mail($to, $subject, $body, $headers)) {
   echo "<p>Thank you for contacting me. I will get back to you soon.</p>";
 } else {
   echo "<p color='red'>Error sending email. Please try again later.</p>";
-}
+}*/
 ?>
  </section>
   </main>
