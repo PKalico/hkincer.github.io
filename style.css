@@ -1,0 +1,145 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5a5e6b;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+nav a:hover {
+  color: #ff69b4;
+}
+
+section {
+  padding: 40px;
+}
+
+section h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #5a5e6b;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #5a5e6b;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Colors */
+
+/* Main color */
+:root {
+  --main-color: #5a5e6b;
+}
+
+/* Secondary color */
+:root {
+  --secondary-color: #ff69b4;
+}
+
+/* Styles for links */
+a {
+  color: var(--secondary-color);
+}
+
+a:hover {
+  color: var(--main-color);
+}
+
+/* Fonts */
+
+/* Body font */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+/* Heading font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+/* Add your own custom styles here */
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+button[type="submit"] {
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 1rem;
+}
+
+button[type="submit"]:hover {
+  background-color: #0052a3;
+}
