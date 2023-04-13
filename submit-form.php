@@ -10,11 +10,10 @@
   <header>
     <h1>Heather Kincer</h1>
     <nav>
-      <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="index.html#skills">Skills</a></li>
-        <li><a href="experience.html">Experience</a></li>
-        <li><a href="#">Contact</a></li>
+    <ul class="nav nav-pills">
+        <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
