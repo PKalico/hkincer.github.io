@@ -1,8 +1,16 @@
+/* Body font */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #333;
   background-color: #fff;
+}
+
+/* Heading font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: var(--main-color);
 }
 
 header {
@@ -12,12 +20,6 @@ header {
   background-color: #5a5e6b;
   color: #fff;
   padding: 20px;
-}
-
-h1 {
-  font-size: 40px;
-  font-weight: 500;
-  margin: 0;
 }
 
 nav ul {
@@ -72,7 +74,7 @@ footer {
 
 /* Main color */
 :root {
-  --main-color: #5a5e6b;
+  --main-color: #0c078b;
 }
 
 /* Secondary color */
@@ -86,21 +88,6 @@ a {
 }
 
 a:hover {
-  color: var(--main-color);
-}
-
-/* Fonts */
-
-/* Body font */
-body {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 400;
-}
-
-/* Heading font */
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
   color: var(--main-color);
 }
 
